@@ -127,11 +127,85 @@
         "padding_top_mobi": 40,
         "padding_bottom_mobi": 40
       }
+    },
+    "image_text_slider_rCP9GA": {
+      "type": "image-text-slider",
+      "blocks": {
+        "image_text_slide_k6XxEM": {
+          "type": "image_text_slide",
+          "settings": {
+            "title": "Slide title",
+            "text": "<p>Add your slide text here.</p>",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "image_text_slide_DaAghN": {
+          "type": "image_text_slide",
+          "settings": {
+            "title": "Slide title",
+            "text": "<p>Add your slide text here.</p>",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "image_text_slide_GRFGK8": {
+          "type": "image_text_slide",
+          "settings": {
+            "title": "Slide title",
+            "text": "<p>Add your slide text here.</p>",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        },
+        "image_text_slide_9APje7": {
+          "type": "image_text_slide",
+          "settings": {
+            "title": "Slide title",
+            "text": "<p>Add your slide text here.</p>",
+            "link_label": "Shop now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_text_slide_k6XxEM",
+        "image_text_slide_DaAghN",
+        "image_text_slide_GRFGK8",
+        "image_text_slide_9APje7"
+      ],
+      "name": "Image text slider",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "Premium Collection Showcase",
+        "text": "<p>Elevate Your Style, Embrace Your Story<br/>Discover pieces that reflect who you are. Every item tells a tale of craftsmanship and passion.<br/></p>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "text_alignment": "left",
+        "image_ratio": "square",
+        "enable_slider": true,
+        "enable_loop": false,
+        "auto_width": false,
+        "slider_speed": 6000,
+        "space_between_slide": 20,
+        "show_pagination": false,
+        "show_pagination_in": "both",
+        "pagination_type": "dot",
+        "navigation": false,
+        "show_navigation_in": "both",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 28,
+        "padding_bottom_mobi": 28
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "icon_with_text_iQCejB"
+    "icon_with_text_iQCejB",
+    "image_text_slider_rCP9GA"
   ]
 }
