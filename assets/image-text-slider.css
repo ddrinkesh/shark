@@ -1,0 +1,45 @@
+.image-text-slider-main { width: 100%; position: relative; overflow: hidden; }
+.image-text-slider-main .page-width { position: relative; }
+.image-text-slider-header { max-width: 78rem; margin: 0 0 3rem; }
+.image-text-slider-header.center { margin-left: auto; margin-right: auto; text-align: center; }
+.image-text-slider-header.right { margin-left: auto; text-align: right; }
+.image-text-slider-heading { margin: 0; }
+.image-text-slider-text { margin-top: 1rem; }
+.image-text-slider-wrapper { position: relative; }
+.image-text-slider-swiper { overflow: hidden; }
+.image-text-slider-main--loop .image-text-slider-swiper .swiper-wrapper { transition-timing-function: linear; }
+.image-text-slider-slide.auto-width { width: 30rem; }
+.image-text-slider-card { height: 100%; }
+.image-text-slider-card__link { display: block; height: 100%; color: inherit; text-decoration: none; }
+.image-text-slider-card__media { position: relative; width: 100%; overflow: hidden; background: rgba(var(--color-foreground), 0.04); }
+.image-text-slider-card__media--adapt { aspect-ratio: 1 / 1; }
+.image-text-slider-card__media--square { aspect-ratio: 1 / 1; }
+.image-text-slider-card__media--portrait { aspect-ratio: 3 / 4; }
+.image-text-slider-card__media--landscape { aspect-ratio: 4 / 3; }
+.image-text-slider-card__image { display: block; width: 100%; height: 100%; object-fit: cover; transition: transform 0.35s ease; }
+.image-text-slider-card__placeholder { display: block; width: 100%; height: 100%; background: rgba(var(--color-foreground), 0.04); }
+.image-text-slider-card__link:hover .image-text-slider-card__image { transform: scale(1.04); }
+.image-text-slider-card__content { padding-top: 1.6rem; }
+.image-text-slider-card__content.center { text-align: center; }
+.image-text-slider-card__content.right { text-align: right; }
+.image-text-slider-card__title { margin: 0; font-size: calc(var(--font-heading-scale) * 2rem); line-height: 1.25; }
+.image-text-slider-card__text { margin-top: 0.8rem; }
+.image-text-slider-card__button { display: inline-flex; align-items: center; margin-top: 1.2rem; }
+.image-text-slider-items { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2.4rem; }
+.image-text-slider-nav { display: flex; align-items: center; justify-content: flex-end; gap: 1.2rem; margin-top: 2.4rem; }
+.image-text-slider-nav .btn-arrow { position: static; display: flex; align-items: center; justify-content: center; width: 4.4rem; height: 4.4rem; margin: 0; color: rgb(var(--color-foreground)); border: 0.1rem solid rgba(var(--color-foreground), 0.2); border-radius: 50%; cursor: pointer; transition: background 0.2s ease, border-color 0.2s ease; }
+.image-text-slider-nav .btn-arrow:hover { background: rgba(var(--color-foreground), 0.06); border-color: rgba(var(--color-foreground), 0.45); }
+.image-text-slider-nav .swiper-button-prev svg { transform: rotate(90deg); }
+.image-text-slider-nav .swiper-button-next svg { transform: rotate(-90deg); }
+.image-text-slider-nav .btn-arrow::after { display: none; }
+.image-text-slider-wrapper .swiper-pagination { position: static; margin-top: 2rem; }
+.image-text-slider-wrapper .swiper-pagination.line .swiper-pagination-bullet { width: 3rem; height: 0.3rem; border-radius: 0; }
+.image-text-slider-wrapper .swiper-pagination.border .swiper-pagination-bullet { background: transparent; border: 0.1rem solid currentColor; opacity: 1; }
+.image-text-slider-wrapper .swiper-pagination.border .swiper-pagination-bullet-active { background: currentColor; }
+@media screen and (max-width: 989px) { .image-text-slider-items { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; } }
+@media screen and (max-width: 749px) { .image-text-slider-header { margin-bottom: 2.4rem; } }
+@media screen and (max-width: 749px) { .image-text-slider-items { grid-template-columns: 1fr; gap: 2rem; } }
+@media screen and (max-width: 749px) { .image-text-slider-slide.auto-width { width: 24rem; } }
+@media screen and (max-width: 749px) { .image-text-slider-card__content { padding-top: 1.2rem; } }
+@media screen and (max-width: 749px) { .image-text-slider-card__title { font-size: calc(var(--font-heading-scale) * 1.8rem); } }
+@media screen and (max-width: 749px) { .image-text-slider-nav { justify-content: center; margin-top: 2rem; } }
