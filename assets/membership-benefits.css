@@ -1,0 +1,21 @@
+.membership-benefits-main { width: 100%; position: relative; }
+.membership-benefits-main .membership-benefits-header { max-width: 72rem; margin: 0 auto 38px; text-align: center; }
+.membership-benefits-main .membership-benefits-heading { margin: 0; }
+.membership-benefits-main .membership-benefits-text { margin-top: 12px; }
+.membership-benefits-main .membership-benefits-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 32px; }
+.membership-benefits-main .membership-benefits-item { min-width: 0; text-align: center; }
+.membership-benefits-main .membership-benefits-media { width: 146px; height: 146px; margin: 0 auto 18px; overflow: hidden; border-radius: 50%; background: rgba(var(--color-foreground), 0.06); }
+.membership-benefits-main .membership-benefits-image { display: block; width: 100%; height: 100%; object-fit: cover; }
+.membership-benefits-main .membership-benefits-placeholder { width: 100%; height: 100%; background: rgba(var(--color-foreground), 0.06); }
+.membership-benefits-main .membership-benefits-title { margin: 0; font-size: calc(var(--font-heading-scale) * 1.8rem); }
+.membership-benefits-main .membership-benefits-copy { margin-top: 8px; }
+.membership-benefits-main .membership-benefits-copy p { margin-top: 0; margin-bottom: 0; }
+@media screen and (max-width: 989px) {
+.membership-benefits-main .membership-benefits-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
+}
+@media screen and (max-width: 749px) {
+.membership-benefits-main .membership-benefits-header { margin-bottom: 28px; }
+.membership-benefits-main .membership-benefits-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; }
+.membership-benefits-main .membership-benefits-media { width: 112px; height: 112px; }
+.membership-benefits-main .membership-benefits-title { font-size: calc(var(--font-heading-scale) * 1.55rem); }
+}

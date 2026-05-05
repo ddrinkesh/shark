@@ -158,25 +158,31 @@ Main rules:
 16. CSS format must be one-line per selector.
 17. Each new CSS class should start from a new line.
 18. Do not write CSS in traditional multi-line format.
-19. CSS example format:
+19. If multiple responsive CSS rules use the same media breakpoint, group them inside one media query block. Do not create repeated media query blocks for each selector. Keep each selector one line inside that shared media query block.
+20. CSS example format:
 
 .banner-with-text-main { width: 100%; position: relative; }
 .banner-with-text-main .banner-inner { display: flex; align-items: center; gap: 40px; }
 .banner-with-text-main .banner-content { width: 50%; }
+@media screen and (max-width: 749px) {
+.banner-with-text-main .banner-inner { flex-direction: column; gap: 20px; }
+.banner-with-text-main .banner-content { width: 100%; }
+}
 
-20. JavaScript should be added only if required.
-21. If JavaScript is required, scope it inside the current section only using section id or wrapper class.
-22. Do not affect other sections.
-23. Use meaningful class names based on the section name.
-24. Use Shopify dynamic settings instead of static content.
-25. Make the section compatible with Dawn theme.
-26. Always give me ready-to-paste full code.
-27. Clearly separate:
+21. JavaScript should be added only if required.
+22. If JavaScript is required, scope it inside the current section only using section id or wrapper class.
+23. Do not affect other sections.
+24. Use meaningful class names based on the section name.
+25. Use Shopify dynamic settings instead of static content.
+26. Make the section compatible with Dawn theme.
+27. Always give me ready-to-paste full code.
+28. Clearly separate:
     - Section Liquid code
     - CSS file code
     - JS code if needed
-28. Do not skip schema.
-29. Do not remove my spacing structure.
-30. Do not change my one-line CSS format.
+29. Do not skip schema.
+30. Do not remove my spacing structure.
+31. Do not change my one-line CSS format.
+32. Shopify schema JSON must always be formatted as expanded multi-line JSON objects. Do not write schema settings, blocks, presets, or options as one-line objects.
 
 When I say “create custom section”, use this full format automatically.

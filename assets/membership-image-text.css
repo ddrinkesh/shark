@@ -1,0 +1,20 @@
+.membership-image-text-main { width: 100%; position: relative; }
+.membership-image-text-main .membership-image-text-inner { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); align-items: center; gap: 64px; }
+.membership-image-text-main .membership-image-text-inner--text_first { grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr); }
+.membership-image-text-main .membership-image-text-inner--text_first .membership-image-text-media { order: 2; }
+.membership-image-text-main .membership-image-text-media { position: relative; overflow: hidden; background: rgba(var(--color-foreground), 0.06); aspect-ratio: 4 / 3; }
+.membership-image-text-main .membership-image-text-image { display: block; width: 100%; height: 100%; object-fit: cover; }
+.membership-image-text-main .membership-image-text-placeholder { width: 100%; height: 100%; background: rgba(var(--color-foreground), 0.06); }
+.membership-image-text-main .membership-image-text-eyebrow { margin: 0 0 14px; font-size: 1.2rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.membership-image-text-main .membership-image-text-heading { margin: 0; }
+.membership-image-text-main .membership-image-text-text { max-width: 58rem; margin-top: 18px; }
+.membership-image-text-main .membership-image-text-text p { margin-top: 0; }
+.membership-image-text-main .membership-image-text-button { margin-top: 22px; }
+@media screen and (max-width: 989px) {
+.membership-image-text-main .membership-image-text-inner { gap: 36px; }
+}
+@media screen and (max-width: 749px) {
+.membership-image-text-main .membership-image-text-inner { grid-template-columns: 1fr; gap: 28px; }
+.membership-image-text-main .membership-image-text-inner--text_first .membership-image-text-media { order: 0; }
+.membership-image-text-main .membership-image-text-media { aspect-ratio: 1 / 1; }
+}

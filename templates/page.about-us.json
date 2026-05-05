@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "about_hero": {
+      "type": "about-hero-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/urban-vintage-denimn-on-hangers.jpg",
+        "eyebrow": "",
+        "heading": "Make Custom Candles Your Ritual",
+        "text": "",
+        "heading_size": "h0",
+        "content_alignment": "left",
+        "overlay_opacity": 15,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 0,
+        "padding_bottom_mobi": 0
+      }
+    },
+    "about_card_pair": {
+      "type": "about-card-pair",
+      "blocks": {
+        "card_monthly": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/0000000001_WalnutWood_50x60_94b3b679-177e-4584-80cc-2990b7ecc2a0.webp",
+            "heading": "The Studio: Monthly",
+            "text": "<p>A monthly candle-making membership for those who want to make fragrance and creativity part of their regular ritual.</p>",
+            "button_label": "Learn more",
+            "link": ""
+          }
+        },
+        "card_seasonal": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/woman-puts-hand-in-pocket.jpg",
+            "heading": "The Studio: Seasonal",
+            "text": "<p>A quarterly candle-making membership designed to bring creativity, fragrance, and intentional moments into every season.</p>",
+            "button_label": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_monthly",
+        "card_seasonal"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "eyebrow": "Become a friend",
+        "heading": "Create Sensory Capsules of the Month or Season",
+        "text": "",
+        "heading_size": "h2",
+        "padding_top": 42,
+        "padding_bottom": 80,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 36,
+        "padding_bottom_mobi": 44
+      }
+    },
+    "about_ritual_banner": {
+      "type": "about-ritual-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/blank-colored-t-shirts.jpg",
+        "eyebrow": "Make it a ritual",
+        "heading": "A Fragrance Bar Where They Know You By Name",
+        "text": "",
+        "heading_size": "h1",
+        "overlay_opacity": 20,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 0,
+        "padding_bottom_mobi": 0
+      }
+    },
+    "about_features": {
+      "type": "about-feature-row",
+      "blocks": {
+        "feature_ritual": {
+          "type": "feature",
+          "settings": {
+            "heading": "A Ritual Worth Returning To",
+            "text": "<p>Enjoy candle-making experiences paired with complementary beverages and light refreshments in a warm, elevated studio setting.</p>"
+          }
+        },
+        "feature_scents": {
+          "type": "feature",
+          "settings": {
+            "heading": "Member Savings",
+            "text": "<p>Membership pricing offers added value throughout the year, making recurring creative experiences easier to enjoy.</p>"
+          }
+        },
+        "feature_perks": {
+          "type": "feature",
+          "settings": {
+            "heading": "Exclusive Retail Perks",
+            "text": "<p>Enjoy exclusive savings on retail products, seasonal fragrance collections, and select studio experiences.</p>"
+          }
+        },
+        "feature_rhythm": {
+          "type": "feature",
+          "settings": {
+            "heading": "Choose Your Rhythm",
+            "text": "<p>Choose a monthly or seasonal membership with easy access to workshops, events, and upcoming experiences.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_ritual",
+        "feature_scents",
+        "feature_perks",
+        "feature_rhythm"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "enable_slider": true,
+        "auto_width": false,
+        "space_between_slide": 0,
+        "show_pagination": false,
+        "show_pagination_in": "both",
+        "pagination_type": "dot",
+        "navigation": false,
+        "show_navigation_in": "both",
+        "padding_top": 56,
+        "padding_bottom": 46,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 34,
+        "padding_bottom_mobi": 34
+      }
+    }
+  },
+  "order": [
+    "about_hero",
+    "about_card_pair",
+    "about_ritual_banner",
+    "about_features"
+  ]
+}

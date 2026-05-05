@@ -193,10 +193,12 @@ Follow this structure:
 
 9. Do not copy `icon-with-text` names unless I ask for icon with text section.
 
-10. CSS must be separate and one-line per selector.
+10. CSS must be separate and one-line per selector. If multiple responsive CSS rules use the same media breakpoint, group them inside one media query block and keep each selector one line inside that shared block.
 
 11. JavaScript must work with this `data-slider-options` structure and support multiple Swiper sections on the same page.
 
 12. Always create clean Shopify Dawn-compatible code.
+
+13. Shopify schema JSON must always be formatted as expanded multi-line JSON objects. Do not write schema settings, blocks, presets, or options as one-line objects.
 
 When I say “custom section with slider”, automatically follow this format.

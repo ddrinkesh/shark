@@ -1,0 +1,157 @@
+{
+  "sections": {
+    "membership_hero": {
+      "type": "membership-hero",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "eyebrow": "Membership",
+        "heading": "Join the Casa Figlia membership",
+        "text": "<p>Access thoughtful workshops, curated resources, and member-only experiences made for creative families.</p>",
+        "button_label": "Become a member",
+        "button_link": "",
+        "heading_size": "h0",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 0,
+        "padding_bottom_mobi": 0
+      }
+    },
+    "membership_intro": {
+      "type": "membership-image-text",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "image_first",
+        "eyebrow": "For families",
+        "heading": "Learning with Casa Figlia starts here",
+        "text": "<p>Our membership brings practical guidance, thoughtful play, and seasonal ideas into one simple place.</p>",
+        "button_label": "Explore membership",
+        "button_link": "",
+        "heading_size": "h1",
+        "padding_top": 80,
+        "padding_bottom": 40,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 40,
+        "padding_bottom_mobi": 28
+      }
+    },
+    "membership_benefits": {
+      "type": "membership-benefits",
+      "blocks": {
+        "benefit_1": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Guided ideas",
+            "text": "<p>Simple practices and prompts for meaningful everyday moments.</p>"
+          }
+        },
+        "benefit_2": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Seasonal resources",
+            "text": "<p>Fresh activities and inspiration designed around the rhythm of the year.</p>"
+          }
+        },
+        "benefit_3": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Member moments",
+            "text": "<p>Special experiences, updates, and community-first content.</p>"
+          }
+        },
+        "benefit_4": {
+          "type": "benefit",
+          "settings": {
+            "heading": "Creative support",
+            "text": "<p>Helpful guidance for building confident, joyful learning at home.</p>"
+          }
+        }
+      },
+      "block_order": ["benefit_1", "benefit_2", "benefit_3", "benefit_4"],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "heading": "What members receive",
+        "text": "<p>A simple way to keep inspiration, learning, and community close.</p>",
+        "heading_size": "h1",
+        "padding_top": 40,
+        "padding_bottom": 64,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 28,
+        "padding_bottom_mobi": 40
+      }
+    },
+    "membership_resources": {
+      "type": "membership-card-grid",
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "heading": "Creative play rituals",
+            "text": "<p>Small ways to make learning feel natural, connected, and calm.</p>",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "heading": "Hands-on discovery",
+            "text": "<p>Ideas for slowing down and exploring materials with intention.</p>",
+            "link_label": "Read more",
+            "link": ""
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "heading": "Seasonal learning",
+            "text": "<p>Prompts and projects inspired by the changing world around us.</p>",
+            "link_label": "Read more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": ["card_1", "card_2", "card_3"],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "eyebrow": "Get more from our tips",
+        "heading": "Member resources and ideas",
+        "text": "",
+        "button_label": "View all",
+        "button_link": "",
+        "heading_size": "h1",
+        "padding_top": 64,
+        "padding_bottom": 80,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 40,
+        "padding_bottom_mobi": 50
+      }
+    },
+    "membership_cta": {
+      "type": "membership-cta",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "eyebrow": "Ready to join?",
+        "heading": "Create your member account today",
+        "text": "<p>Sign up or log in to continue your Casa Figlia membership journey.</p>",
+        "button_label": "Join membership",
+        "button_link": "",
+        "secondary_button_label": "Member login",
+        "secondary_button_link": "",
+        "heading_size": "h1",
+        "padding_top": 76,
+        "padding_bottom": 76,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_mobi": 44,
+        "padding_bottom_mobi": 44
+      }
+    }
+  },
+  "order": ["membership_hero", "membership_intro", "membership_benefits", "membership_resources", "membership_cta"]
+}

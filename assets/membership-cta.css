@@ -1,0 +1,10 @@
+.membership-cta-main { width: 100%; position: relative; }
+.membership-cta-main .membership-cta-box { max-width: 980px; margin: 0 auto; text-align: center; }
+.membership-cta-main .membership-cta-eyebrow { margin: 0 0 12px; font-size: 1.2rem; letter-spacing: 0.12em; text-transform: uppercase; }
+.membership-cta-main .membership-cta-heading { margin: 0; }
+.membership-cta-main .membership-cta-text { max-width: 62rem; margin: 16px auto 0; }
+.membership-cta-main .membership-cta-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-top: 28px; }
+@media screen and (max-width: 749px) {
+.membership-cta-main .membership-cta-buttons { gap: 10px; margin-top: 22px; }
+.membership-cta-main .membership-cta-buttons .button { width: 100%; max-width: 32rem; }
+}
